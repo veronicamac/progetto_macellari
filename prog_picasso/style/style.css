@@ -1,0 +1,380 @@
+* {box-sizing: border-box;}
+body{
+	background-color: whitesmoke;
+	font-family: "regular";
+}
+
+
+.vert_list{
+  position: static;
+  display: block;
+  margin-top: 0.2%;
+  padding: 0.1%;
+  overflow: hidden;
+  background-color: silver;
+  margin-right: 85%;
+  margin-left: 2%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.vert_list a{
+	text-decoration: none;
+  display: block;
+  color: dimgrey;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.vert_list a:hover {
+
+  background-color: grey;
+  color: darkslategrey ;
+}
+
+ 
+.ul1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: whitesmoke;
+  background-color: darkslategrey;
+}
+
+@font-face{
+	font-family: "regular";
+	src: url("Garet-Book.woff2") format('woff2');
+}
+
+.li_hor{
+  float: left;
+}
+
+.li_hor2{
+  float: left;
+}
+
+.ul2{
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 5%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D3D3D3;
+  border: 1px solid #A9A9A9;
+}
+
+.ul3{
+  color: whitesmoke;
+  float: left;
+  padding: 8px 16px;
+  transition: black .3s;
+  background-color: none;
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+  left: 42%;
+  top: 245%;
+
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li_hor2 a{
+   background-color: whitesmoke;
+  	color: darkslategrey;
+
+}
+
+.li_hor a{
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+li a:hover {
+  background-color: grey;
+  color: darkslategrey ;
+}
+
+.center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#header{
+	height: 55px;
+}
+
+#header2{
+	margin-left: 45.3%;
+	height: 55px;
+}
+
+#homepage{
+	opacity: 75%;
+	filter: brightness(50%);
+	height: 500px;
+}
+
+#title{
+	background-color: grey;
+	color: beige;
+	font-size: 15px;
+	font-family: 'regular';
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+#button1 {
+  border: 1px solid black;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "regular";
+  border-style: outset;
+}
+
+#button1: active{
+	border-style: inset;
+}
+
+.margin_5{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#catalogue{
+	background-color: coral;
+}
+
+#cat_title{
+	color: whitesmoke;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "regular";
+  font-size: 17px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.shadow_text{
+	opacity: 80%;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: grey;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+footer{
+	background-color: grey;
+	padding: 2px 2px 2px 2px;
+}
+
+#breadcrumbs{
+	margin-left: 2%;
+	background-color: #dadfdf;
+  	padding: 10px 22px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 12px;
+}
+
+.margin_top{
+	margin-top: -20%;
+	margin-left: 20%;
+}
+
+h3{
+	margin-left: 3%;
+}
+
+
+.search_bar input[type=text] {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+  border: 1px solid #A9A9A9;
+  margin-left: 37%;
+  font-size: 17px;
+  height: 50%;
+}
+
+.search_bar button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -5px;
+  padding:3.5px;
+  background: #ddd;
+  font-size: 17px;
+  border:1px solid #A9A9A9;
+  border-style: outset;
+}
+
+.search_bar button:active{
+	border-style: inset;
+}
+
+.search_bar button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.borders{
+	position: static;
+	border: 1px solid #A9A9A9;
+	margin-left: 18%;
+  	margin-right: 5%;
+  	padding-bottom: 5%;
+  	margin-top: 3%;
+}
+
+.desc_box01{
+	position: relative;
+	display: inline-block;
+  	vertical-align: middle;
+	border: 1px solid #A9A9A9;
+	border-top: none;
+	margin-top: 3%;
+	margin-left: 3.5%;
+	margin-bottom: 1.5%;
+	margin-right: 0.5%;
+	width: 39%;
+	text-align: left;
+	box-shadow: 1px 2px #8888;
+}
+
+.painting{
+	width: 100%;
+}
+
+.desc_position{
+	position: static;
+	font-size: 15px;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.opera_button{
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 10px;
+  cursor: pointer;
+  font-family: "regular";
+  margin-left: 28%;
+}
+
+.desc_box02{
+	display: inline-block;
+  	vertical-align: middle;
+	position: relative;
+	border: 1px solid #A9A9A9;
+	border-top: none;
+	margin-top: 3%;
+	margin-right: 1.5%;
+	margin-left: 13.5% ;
+	margin-bottom: 1.5%;
+	width: 39%;
+	text-align: left;
+	box-shadow: 1px 2px #8888;
+}
+
+#wiki_link{
+	position: static;
+	display: block;
+	background-color: lightcoral;
+	color: whitesmoke;
+	margin-right: 85%;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.margin_2{
+	margin-left: 2%;
+}
+
+#wiki_link a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#la_vita{
+	margin-top: -8%;
+	margin-left: 20%;
+}
+
+.only_img{
+	height: 600px;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.desc_only_img{
+	display: block;
+	background-color: #E0E0E0;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+}
