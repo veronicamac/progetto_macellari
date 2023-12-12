@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>I periodi artistici di Pablo Picasso</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+	
+	<header>
+		<img id="header" src="img/header.png" class="center">
+	</header>
+	
+	<nav>
+		<ul class="ul1">
+				<li class="li_hor"><a href="#">Home</a></li>
+				<li class="li_hor"><a href="#">Introduzione</a></li>
+				<li class="li_hor"><a href="catalogo1.html">Catalogo</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<!--title and subtitle-->
+		<section class="container" id="title"><img id="homepage" src="img/homepage.jpg" class="center"/>
+			<div class="centered">
+				<h1><strong>I periodi artistici di Pablo Picasso</strong></h1>
+				<p>La ricerca di un artista poliedrico</p>
+				<button id="button1" type="button"><a href="#">Scopri di più</a></button>
+			</div>
+		</section>
+		
+		<section>
+		<!--project-->
+			<div class="margin_5">
+				<h2>Il progetto</h2>
+				<p><strong>I periodi artistici di Pablo Picasso</strong> è un progetto del Digital Humanities Advanced Research Center (/DH.ARC) dell'Università di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la valorizzazione dei principali dipinti di Pablo Picasso suddivisi in base ai periodi artistici del pittore. Il risultato è un catalogo che raccoglie più di un centinaio di dipinti navigabili per periodo.</p>
+			</div>
+		<!--explore the catalogue-->
+			<div id="catalogue">
+				<br>
+				<br>
+				<h2 id="cat_title" class="margin_5">Esplora il catalogo</h2>
+
+				<!--accordion-->
+				<div class="margin_5">
+					<button class="accordion"><strong>Giovinezza</strong><a class="shadow_text"> 1888-1900</a></button>
+					<div class="panel">
+						<p>Lorem ipsum...</p>
+					</div>
+					<button class="accordion"><strong>Periodo Blu</strong><a class="shadow_text"> 1901-1904</a></button>
+					<div class="panel">
+						<p>Lorem ipsum...</p>
+					</div>
+					<button class="accordion"><strong>Periodo rosa</strong><a class="shadow_text"> 1904-1906</a></button>
+					<div class="panel">
+						<p>Lorem ipsum...</p>
+					</div>
+					<button class="accordion"><strong>Cubismo</strong> <a class="shadow_text">1907-1973</a></button>
+					<div class="panel">
+						<p>Lorem ipsum...</p>
+					</div>
+				</div>
+				<br>
+				<br>
+			</div>
+		</section>
+		
+		<section class="center">
+		<!--pre-footer-->
+			<div>
+				<p>
+					<a href="#" title="Credits">Credits</a>|
+					<a href="#" title="Licenze">Licenze</a>
+				</p>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="center">
+		<p>© Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre.</p>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</html>
